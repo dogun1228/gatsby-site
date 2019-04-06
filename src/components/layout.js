@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import "prismjs/plugins/line-numbers/prism-line-numbers.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -39,6 +40,7 @@ const Layout = ({ children }) => (
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
+            , Writen by Karin Kim
           </footer>
         </div>
       </>

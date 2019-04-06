@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+
 html {
-  font-family: sans-serif;
+  font-family : 'Nanum Gothic', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
+  background: #37474F;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -40,11 +43,14 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+  color: #FFE082;
 }
-a:active,
+a:active {
+  color: #ffc10f;
+}
 a:hover {
+  color: #ffc10f;
   outline-width: 0;
 }
 abbr[title] {
@@ -185,7 +191,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em 'Nanum Gothic', sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -199,8 +205,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: whitesmoke;
+  font-family: 'Nanum Gothic', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -590,7 +596,7 @@ td:last-child {
 }
 tt,
 code {
-  background-color: hsla(0, 0%, 0%, 0.04);
+  background-color: hsla(0, 0%, 100%, 0.1);
   border-radius: 3px;
   font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
@@ -619,4 +625,27 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.gatsby-highlight {
+  background-color: #2d2d2d;
+  border-radius: 0.3em;
+  margin: 0.5em 0;
+  padding: 1em;
+  overflow: auto;
+}
+.gatsby-highlight pre[class*="language-"] {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  overflow: initial;
+  float: left; /* 1 */
+  min-width: 100%; /* 2 */
+}
+/**
+ * If you already use line highlighting
+ */
+
+/* Adjust the position of the line numbers */
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding-left: 2.8em;
 }
