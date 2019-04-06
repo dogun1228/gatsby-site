@@ -10,9 +10,28 @@ export default function Template({
   return (
     <Layout>
       <div className="blog-post-container">
-        <div className="blog-post">
-          <h1>{frontmatter.title}</h1>
-          <h2>{frontmatter.date}</h2>
+        <div
+          style={{
+            margin: '1em auto',
+            float: 'left',
+            'font-weight': '800',
+            'font-size': '200%',
+          }}
+        >{frontmatter.title}</div>
+        <div
+          style={{
+            margin: '0.5em auto',
+            float: 'right',
+            'font-size': '110%',
+            'font-weight': 'bold',
+          }}
+        >{frontmatter.date}</div>
+        <div
+          style={{
+            clear: 'both',
+          }}
+          className="blog-post"
+        >
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
