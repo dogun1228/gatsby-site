@@ -2,6 +2,7 @@
 path: "/blog/fizzBuzz.md"
 date: "2019-03-18"
 title: "FizzBuzz 문제의 해법"
+tags: ["study"]
 ---
 
 FizzBuzz 문제에 대한 글을 읽고 풀어 보았다.

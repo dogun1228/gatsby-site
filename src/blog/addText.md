@@ -2,6 +2,7 @@
 path: "/blog/addText.md"
 date: "2019-03-09"
 title: "문자열을 더하는 함수 만들기"
+tags: ["study"]
 ---
 
 문자열을 더하는 함수를 만들어 보자.

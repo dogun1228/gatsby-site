@@ -2,6 +2,7 @@
 path: "/blog/gatsbyjs2.md"
 date: "2019-03-13"
 title: "Gatsbyjs로 블로그 만들기 2"
+tags: ["makeblog"]
 ---
 
 Gatsby를 설치해 보자.

@@ -2,6 +2,7 @@
 path: "/blog/gatsbyjs3.md"
 date: "2019-03-14"
 title: "Gatsbyjs로 블로그 만들기 3"
+tags: ["makeblog"]
 ---
 
 오늘은 먼저 Gatsbyjs의 디렉토리 구조에 대해 알아보자.
