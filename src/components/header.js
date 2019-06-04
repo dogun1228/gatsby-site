@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
          }}
         >
           Github
-        </link>
+        </Link>
       </h1>
     </div>
   </header>
