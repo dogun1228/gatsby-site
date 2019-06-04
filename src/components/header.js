@@ -27,6 +27,15 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
+        <Link
+         to="https://github.com/dogun1228"
+         style={{
+           color: `Pink`,
+           textDecoration: `none`,
+         }}
+        >
+          
+        </link>
       </h1>
     </div>
   </header>
